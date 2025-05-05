@@ -39,21 +39,20 @@ industry-standard methodologies. This report details the strategic approach,
 implementation process, and key findings of the investigation. 
 # Methodology  
 A structured, multi-phase approach was used to assess and secure the network 
-environment. This included; 
-● Wireshark: deployed to perform network sniffing and packet-level analysis, 
+environment. This included;
+## Wireshark: deployed to perform network sniffing and packet-level analysis, 
 aiding in the identification of unusual traffic patterns and potential threats. 
-● pfSense: configured to serve as a perimeter firewall, enforce geo-restrictions on 
+## pfSense: configured to serve as a perimeter firewall, enforce geo-restrictions on 
 internet access, and manage IDS/IPS rules to detect and block suspicious 
 activities in real time. 
-● Wazuh: implemented as a centralized SIEM platform, enabling comprehensive 
-2 
+## Wazuh: implemented as a centralized SIEM platform, enabling comprehensive
 log ingestion, real-time event correlation, threat hunting, and coordinated 
 incident response.  
-Phase 1: Wireshark – Network Sniffing & Packet Analysis 
-Objective: Capture and analyze suspicious network behavior such as malware 
+## Phase 1: Wireshark – Network Sniffing & Packet Analysis 
+### Objective: Capture and analyze suspicious network behavior such as malware 
 behavior and unauthorized connections. 
-Key Action: Focus on HTTP, DNS, SSH traffic 
-Findings  
+### Key Action: Focus on HTTP, DNS, SSH traffic 
+### Findings  
 1. Malware beaconing: Endpoint (192.168.2.2) within the corporate 
 network was found to periodically attempt to report back to a 
 suspected C2 server. 
@@ -61,6 +60,7 @@ Source: screenshot from wireshark packet traffic.
 2. Data Exfiltration: Endpoint (192.168.2.2) attempted to exfiltrate 
 data via HTTP to a remote location (18.215.71.186) which was 
 resolved to a cloud storage service. 
+
 3 
 Source: screenshot from wireshark packet traffic. 
 Phase 2: pfSense – Firewall & Policy Enforcement 
