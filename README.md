@@ -1,5 +1,5 @@
 # Lum Rina
-# SOC ANALYSIS PROJECT REPORT 
+# SOC ANALYSIS PROJECT 
 ## Threat Detection & Incident Response using: 
 ### Wireshark, pfSense and Wazuh 
 SoCra Tech 
