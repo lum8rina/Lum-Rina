@@ -1,13 +1,14 @@
 # Lum Rina
-#CAPSTONE PROJECT REPORT 
-##Threat Detection & Incident Response using: 
-###Wireshark, pfSense and Wazuh 
+# CAPSTONE PROJECT REPORT 
+## Threat Detection & Incident Response using: 
+### Wireshark, pfSense and Wazuh 
 SoCra Tech 
 
 Lum Rina Ngwan 
 Role: Security Operations Center (SOC) Analyst 
 Date: 25th April 2025 
-Table of Content 
+
+# Table of Content 
  
 Executive Summary 2 
 Project Scenario 2 
@@ -36,7 +37,7 @@ response, I was assigned as part of the SOC team to deploy security monitoring t
 capture and analyze network traffic, and respond to emerging threats using 
 industry-standard methodologies. This report details the strategic approach, 
 implementation process, and key findings of the investigation. 
-Methodology  
+# Methodology  
 A structured, multi-phase approach was used to assess and secure the network 
 environment. This included; 
 ● Wireshark: deployed to perform network sniffing and packet-level analysis, 
@@ -126,7 +127,7 @@ Recommendations
 5. Deploy a DLP on the network to prevent data exfiltration. 
 6. Disable all unused protocols on the network. 
 7. Perform regular vulnerability assessment and management. 
-Conclusion  
+# Conclusion  
 In a nutshell, with regards to the SOC analysis project  carried out for SoCra Tech, a 
 realistic approach to network defense, allowing us to apply detection, monitoring,  
 and incident response using professional tools such as Wireshark, Pfsense and 
