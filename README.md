@@ -1,5 +1,5 @@
 # Lum Rina
-# CAPSTONE PROJECT REPORT 
+# SOC ANALYSIS PROJECT REPORT 
 ## Threat Detection & Incident Response using: 
 ### Wireshark, pfSense and Wazuh 
 SoCra Tech 
